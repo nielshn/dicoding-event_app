@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dicoding Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_image">Image Event\n</string>
+    <string name="dicoding_event">Dicoding Event</string>
+    <string name="recommended_event_for_you">Recommended event for you!</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="finish_event">Finish Event</string>
+    <string name="title_home">Home</string>
+    <string name="event_date">Event Date</string>
+    <string name="register_now">Register Now</string>
+    <string name="by_organizer">by Organizer</string>
+    <string name="detail_event_image">Detail Event Image</string>
+    <string name="time_time_event">Time: time_event</string>
+    <string name="quota_event_quota">Quota: event quota</string>
+    <string name="description">Description</string>
+    <string name="favorite_icon">favorite icon</string>
+    <string name="favorite_event">Favorite Event</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_icon">theme icon</string>
+    <string name="switch_theme_setting">Enable dark mode</string>
+    <string name="reminder_icon">Reminder Icon</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="switch_setting_notification">Enable notification</string>
+    <string name="settings">Settings</string>
+    <string name="sisa_quota">Sisa Quota: %d</string>
+</resources>

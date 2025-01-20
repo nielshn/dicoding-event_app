@@ -1,0 +1,34 @@
+<resources>
+    <!-- Light Mode Colors -->
+    <color name="primaryColorLight">#6200EE</color>
+    <color name="primaryColorDark">#BB86FC</color>
+    <color name="primaryVariantColorLight">#3700B3</color>
+    <color name="primaryVariantColorDark">#3700B3</color>
+
+    <!-- On-Primary Colors -->
+    <color name="onPrimaryLight">#FFFFFF</color>
+    <color name="onPrimaryDark">#000000</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColorLight">#03DAC6</color>
+    <color name="secondaryColorDark">#03DAC6</color>
+
+    <!-- Text Colors -->
+    <color name="primaryTextColor">#333333</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <!-- Background Colors -->
+    <color name="backgroundLight">#FFFFFF</color>
+    <color name="backgroundDark">#121212</color>
+    <color name="placeholder">#6FB6B6B6</color>
+
+    <!-- On-Background Colors -->
+    <color name="onBackgroundLight">#000000</color>
+    <color name="onBackgroundDark">#FFFFFF</color>
+
+    <!-- Additional Color for Links or CTA -->
+    <color name="accentColor">#64B5F6</color>
+    <color name="grey">#808080</color>
+
+
+</resources>

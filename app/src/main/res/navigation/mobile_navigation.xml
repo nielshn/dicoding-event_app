@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.dicodingevent.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_upcoming_events"
+            app:destination="@id/navigation_upcoming_events" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_upcoming_events"
+        android:name="com.dicoding.dicodingevent.ui.event.EventFragment"
+        android:label="@string/upcoming_event"
+        tools:layout="@layout/fragment_event">
+        <argument
+            android:name="eventType"
+            android:defaultValue="1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_navigation_upcoming_events_to_navigation_finished_events"
+            app:destination="@id/navigation_finished_events" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_finished_events"
+        android:name="com.dicoding.dicodingevent.ui.event.EventFragment"
+        android:label="@string/finish_event"
+        tools:layout="@layout/fragment_event">
+        <argument
+            android:name="eventType"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorite_events"
+        android:name="com.dicoding.dicodingevent.ui.favoriteEvent.FavoriteEventFragment"
+        android:label="@string/favorite_event"
+        tools:layout="@layout/fragment_favorite_event">
+        <argument
+            android:name="eventType"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.dicoding.dicodingevent.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
