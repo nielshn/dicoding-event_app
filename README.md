@@ -49,19 +49,34 @@ This repository contains the final submission project for the **Fundamental Andr
 - **API Integration**: Fetches data dynamically from external sources.
 
 ## 🖼️ Screenshots  
-Screenshots of the app showcasing the following:  
+Showcasing various features of the app:  
 
-- **Home Page with Bottom Navigation**  
-  <img src="https://github.com/user-attachments/assets/16a8756f-14d2-4284-9479-acbf59f450b1" alt="Home Page" width="400">  
-
-- **Event List**  
-  <img src="https://github.com/user-attachments/assets/854a88b1-4ebf-40a4-9971-9af94dc6df2d" alt="Event List" width="400">  
-
-- **Detail Page**  
-  <img src="https://github.com/user-attachments/assets/5e7ee81e-44d4-4a63-a4f9-7612ee02cb4e" alt="Detail Page" width="400">  
-
-- **Favorite Feature**  
-  <img src="https://github.com/user-attachments/assets/60bbeb70-b6b8-4366-be92-5d340e2a17d6" alt="Favorite Feature" width="400">  
+<table>
+  <tr>
+    <td align="center"><b>Home Page with Bottom Navigation</b></td>
+    <td align="center"><b>Event List</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/26369426-3ed5-4889-99d8-a14027a7a202" alt="Home Page" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a781b4ef-4f68-4a8d-a5aa-5307648968d7" alt="Event List" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Detail Page</b></td>
+    <td align="center"><b>Favorite Feature</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/64611f10-c348-4bfb-9d78-1209b1c5077f" alt="Detail Page" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8e8adf03-b8e6-4586-a021-0e2c6cc47d51" alt="Favorite Feature" width="400">
+    </td>
+  </tr>
+</table>
 
 ## ❤️ Acknowledgments
 This project was built as part of the **Dicoding Academy Fundamental Android Course**. A big thanks to the instructors and the Dicoding community for the guidance and support throughout the course.
